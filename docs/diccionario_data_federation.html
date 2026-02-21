@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visor de Variables Bioclimáticas por Fuente</title>
+
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #020f1c;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+.container { max-width: 900px; margin: auto; }
+h1, h2, h4 { color: #ffffff; border-bottom: 2px solid rgb(100,185,206); padding-bottom: 10px; }
+
+.card {
+  background: #020f1c;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+details {
+  border: 1px solid #4a6a81;
+  border-radius: 8px;
+  margin-top: 25px;
+  background: #0a1e32;
+}
+details[open] { background: #0f2a46; }
+
+summary {
+  cursor: pointer;
+  padding: 15px;
+  list-style: none;
+}
+summary::-webkit-details-marker { display: none; }
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.group-header label {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.cards-container { padding: 0 15px 15px 15px; }
+
+.item { display: flex; align-items: center; gap: 15px; }
+.item input[type="checkbox"] { width: 1.3em; height: 1.3em; cursor: pointer; }
+.item label { flex-grow: 1; cursor: pointer; }
+.item-info strong {
+  font-size: 1.1em;
+  color: #73aae5;
+  font-family: monospace;
+}
+.item-info p { margin: 5px 0 0; color: #6c757d; }
+
+#download-btn {
+  color: rgb(255, 255, 255);
+  background-color: #587068;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+details .group-header h3 {
+  color: #79c7ff;
+  transition: 0.3s;
+}
+
+details[open] .group-header h3 {
+  color: #fbe297;
+}
+
+details[open] .cards-container .item-info p {
+  color: #cfe8ff;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Catálogo de Variables</h1>
+
+<div id="summary-section" class="hidden">
+<!--h2>Resumen</h2-->
+<div id="summary" class="card"></div>
+</div>
+
+<!--div id="selection-section" class="hidden">
+<h4>Selecciona Variables para Exportar a CSV</h4>
+<div class="card">
+<button id="download-btn">Generar y Descargar CSV</button>
+</div-->
+<div id="variable-list"></div>
+</div>
+
+</div>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', preloadJSON);
+
+//----------------------------------------
+// Cargar diccionario automáticamente
+//----------------------------------------
+async function preloadJSON() {
+
+  const response = await fetch('diccionario.json');
+  const data = await response.json();
+
+  renderSummary(data);
+  renderVariableList(data);
+  setupDownloadListener(data);
+
+  document.getElementById('summary-section').classList.remove('hidden');
+  document.getElementById('selection-section').classList.remove('hidden');
+}
+
+//----------------------------------------
+function renderSummary(data) {
+  const variableCount = Object.keys(data).length;
+  const sources = new Set(Object.values(data).map(i => i.FUENTE_DE_DATOS));
+  document.getElementById("summary").innerHTML = `
+    <p><strong>Variables encontradas:</strong> ${variableCount}</p>
+    <p><strong>Fuente de las variable:</strong> ${[...sources].join(', ')}</p>`;
+}
+
+//----------------------------------------
+function slugify(text) {
+  return text.toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "-");
+}
+
+//----------------------------------------
+function renderVariableList(data) {
+
+  const listDiv = document.getElementById("variable-list");
+  listDiv.innerHTML = "";
+
+  const grouped = {};
+
+  for (const key in data) {
+    const source = data[key].FUENTE_DE_DATOS || "Sin Fuente";
+    if (!grouped[source]) grouped[source] = [];
+    grouped[source].push({key, ...data[key]});
+  }
+
+  for (const source in grouped) {
+
+    const sourceId = slugify(source);
+
+    const details = document.createElement('details'); // COLAPSADO default
+
+    const summary = document.createElement('summary');
+    summary.innerHTML = `
+      <div class="group-header">
+        <h3>${source}</h3>
+        <input type="checkbox" id="select-all-${sourceId}">
+        <label for="select-all-${sourceId}">Seleccionar Todo</label>
+      </div>`;
+
+    details.appendChild(summary);
+
+    const cardsContainer = document.createElement('div');
+    cardsContainer.className = 'cards-container';
+
+    grouped[source].forEach(variable => {
+
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const varId = `var-${sourceId}-${variable.key}`;
+
+      card.innerHTML = `
+      <div class="item">
+        <input type="checkbox"
+          name="variable-select"
+          class="variable-checkbox-${sourceId}"
+          value="${variable.key}"
+          id="${varId}">
+        <label for="${varId}" class="item-info">
+          <strong>${variable.key}</strong>
+          <p>${variable.DESCRIPTION}</p>
+        </label>
+      </div>`;
+
+      const cb = card.querySelector('input');
+
+      cb.addEventListener('change', () => {
+        const group = document.querySelectorAll(`.variable-checkbox-${sourceId}`);
+        const allChecked = [...group].every(x => x.checked);
+        document.getElementById(`select-all-${sourceId}`).checked = allChecked;
+      });
+
+      cardsContainer.appendChild(card);
+    });
+
+    details.appendChild(cardsContainer);
+    listDiv.appendChild(details);
+
+    document.getElementById(`select-all-${sourceId}`)
+    .addEventListener('change', e => {
+      document.querySelectorAll(`.variable-checkbox-${sourceId}`)
+      .forEach(cb => cb.checked = e.target.checked);
+    });
+  }
+}
+
+//----------------------------------------
+function setupDownloadListener(data) {
+
+  document.getElementById('download-btn')
+  .addEventListener('click', () => {
+
+    const selected = [...document.querySelectorAll('input[name="variable-select"]:checked')]
+    .map(cb => cb.value);
+
+    if (selected.length === 0) return alert("Selecciona al menos una variable");
+
+    const headers = ["CODE","DESCRIPTION","FUENTE_DE_DATOS","URL"];
+    let csv = headers.join(",") + "\n";
+
+    const esc = v => {
+      const s = String(v ?? "");
+      return (s.includes(',')||s.includes('"'))
+      ? `"${s.replace(/"/g,'""')}"` : s;
+    };
+
+    selected.forEach(k => {
+      const v = data[k];
+      csv += [k,v.DESCRIPTION,v.FUENTE_DE_DATOS,v.URL]
+      .map(esc).join(",") + "\n";
+    });
+
+    const blob = new Blob([`\uFEFF${csv}`],{type:'text/csv;charset=utf-8;'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = "seleccion.csv";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+}
+
+</script>
+</body>
+</html>

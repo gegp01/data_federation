@@ -1,0 +1,927 @@
+{
+  "BIO1": {
+    "DESCRIPTION": "Annual Mean Temperature",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO2": {
+    "DESCRIPTION": "Mean Diurnal Range (Mean of monthly (max temp - min temp))",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO3 ": {
+    "DESCRIPTION": "Isothermality (BIO2/BIO7) (×100)",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO4 ": {
+    "DESCRIPTION": "Temperature Seasonality (standard deviation ×100)",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO5": {
+    "DESCRIPTION": "Max Temperature of Warmest Month",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO6": {
+    "DESCRIPTION": "Min Temperature of Coldest Month",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO7": {
+    "DESCRIPTION": "Temperature Annual Range (BIO5-BIO6)",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO8": {
+    "DESCRIPTION": "Mean Temperature of Wettest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO9": {
+    "DESCRIPTION": "Mean Temperature of Driest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO10": {
+    "DESCRIPTION": "Mean Temperature of Warmest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO11": {
+    "DESCRIPTION": "Mean Temperature of Coldest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO12": {
+    "DESCRIPTION": "Annual Precipitation",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO13": {
+    "DESCRIPTION": "Precipitation of Wettest Month",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO14": {
+    "DESCRIPTION": "Precipitation of Driest Month",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO15": {
+    "DESCRIPTION": "Precipitation Seasonality (Coefficient of Variation)",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO16": {
+    "DESCRIPTION": "Precipitation of Wettest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO17": {
+    "DESCRIPTION": "Precipitation of Driest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO18": {
+    "DESCRIPTION": "Precipitation of Warmest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "BIO19": {
+    "DESCRIPTION": "Precipitation of Coldest Quarter",
+    "FUENTE_DE_DATOS": "WorldClim",
+    "URL": "https://www.worldclim.org/"
+  },
+  "0837": {
+    "DESCRIPTION": "Mejoramiento Urbano - PMU (INSUS) Regularización y Certeza Jurídica",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0838": {
+    "DESCRIPTION": "Mejoramiento Urbano - PMU (CONAVI) Vivienda en Ámbito Urbano",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0844": {
+    "DESCRIPTION": "Producción para el Bienestar - Pequeños y Medianos Productores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0846": {
+    "DESCRIPTION": "Producción para el Bienestar - Pequeños Productores (Ex PIMAF)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0848": {
+    "DESCRIPTION": "Producción para el Bienestar - Productores Indígenas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0850": {
+    "DESCRIPTION": "Producción para el Bienestar - Productores Caña de Azúcar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0852": {
+    "DESCRIPTION": "Producción para el Bienestar - Productores de Café",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0858": {
+    "DESCRIPTION": "Programa Nacional de Reconstrucción - Reconstrucción (Vivienda)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0893": {
+    "DESCRIPTION": "Jóvenes Construyendo el Futuro - Jóvenes Construyendo el Futuro (STPS)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0929": {
+    "DESCRIPTION": "Programa para el Bienestar de las Personas en Emergencia Social o Natural",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S072": {
+    "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S174": {
+    "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S176": {
+    "DESCRIPTION": "Pensión para el Bienestar de las Personas Adultas Mayores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S287": {
+    "DESCRIPTION": "Sembrando Vida",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "U021": {
+    "DESCRIPTION": "Crédito Ganadero a la Palabra",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S177": {
+    "DESCRIPTION": "Programa de Vivienda Social",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S286": {
+    "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S292": {
+    "DESCRIPTION": "Fertilizantes",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0923": {
+    "DESCRIPTION": "Programa de Fomento a la Agricultura, Ganadería, Pesca y Acuicultura - Apoyo para el Bienestar de Pescadores y Acuicultores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S243": {
+    "DESCRIPTION": "Programa de Becas Elisa Acuña",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S290": {
+    "DESCRIPTION": "Precios de Garantía a Productos Alimentarios Básicos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0006": {
+    "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras - Apoyo para el bienestar de las niñas, niños, adolescentes y jóvenes en orfandad materna",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0938": {
+    "DESCRIPTION": "Programa Emergente de Vivienda",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0010": {
+    "DESCRIPTION": "Microcréditos para el Bienestar - Modalidad Mes 13 JCF",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S283": {
+    "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S285": {
+    "DESCRIPTION": "Microcréditos para el Bienestar - Modalidad Consolidación",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S311": {
+    "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S293": {
+    "DESCRIPTION": "Producción para el Bienestar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0341": {
+    "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente - Modalidad Fideicomiso",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0688": {
+    "DESCRIPTION": "Mejorando Tu Hogar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0689": {
+    "DESCRIPTION": "Nutriéndote Sano",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0366": {
+    "DESCRIPTION": "Programa Atención a las Personas Adultas Mayores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0538": {
+    "DESCRIPTION": "Atención a Personas con Discapacidad",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0544": {
+    "DESCRIPTION": "Fortalecimiento Comunitario y Cohesión Social",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0549": {
+    "DESCRIPTION": "Unidos con Valor por Juárez",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0155": {
+    "DESCRIPTION": "Programa para la Atención del Desarrollo Integral Infantil - PF",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0150": {
+    "DESCRIPTION": "Programa Fomento al Empleo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0798": {
+    "DESCRIPTION": "Inclusión Productiva",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0921": {
+    "DESCRIPTION": "Chihuahua Crece Contigo: Niñas, Niños y Juventudes",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0349": {
+    "DESCRIPTION": "Atención a Niñas, Niños, Adolescentes, Jóvenes y Madres embarazadas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0317": {
+    "DESCRIPTION": "Atención a Migrantes",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0494": {
+    "DESCRIPTION": "Atención a Adultos Mayores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0498": {
+    "DESCRIPTION": "Atención a la Juventud",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0499": {
+    "DESCRIPTION": "Atención a Pueblos Indígenas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0500": {
+    "DESCRIPTION": "Fomento Artesanal",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0318": {
+    "DESCRIPTION": "Programa Entrega de Aparatos Ortopedico, Economicos y en Especie",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0339": {
+    "DESCRIPTION": "Inclusión para madres jefas de familia en condiciones de vulnerabilidad",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0054": {
+    "DESCRIPTION": "Crédito a la Palabra de la Mujer",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0129": {
+    "DESCRIPTION": "Participación Comunitaria para el Desarrollo Humano con Asistencia Alimentaria",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0053": {
+    "DESCRIPTION": "Vamos Juntos a la Escuela",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0685": {
+    "DESCRIPTION": "Desayunos Escolares Fríos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0686": {
+    "DESCRIPTION": "Asistencia Alimentaria a Sujetos Vulnerables",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0524": {
+    "DESCRIPTION": "Apoyos a Dignatarios Mayas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0526": {
+    "DESCRIPTION": "Estímulo a Entrenadores y Alto Rendimiento",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0645": {
+    "DESCRIPTION": "Atención Para Verte Mejor",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0646": {
+    "DESCRIPTION": "Atención Una Ayuda Una Esperanza",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0647": {
+    "DESCRIPTION": "Atención Ayuda a Salvar Una Vida",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0648": {
+    "DESCRIPTION": "Atención Aparatos Funcionales",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0650": {
+    "DESCRIPTION": "Becas del CEDAR",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0652": {
+    "DESCRIPTION": "Concurso de Arte Popular",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0657": {
+    "DESCRIPTION": "Crédito a la Palabra Mujer MIPyME",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0776": {
+    "DESCRIPTION": "Albergue Estudiantil",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0780": {
+    "DESCRIPTION": "Educación Para Adultos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0492": {
+    "DESCRIPTION": "Por un Tlaxcala sin Rezago Educativo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0493": {
+    "DESCRIPTION": "Ayudas Sociales a Personas Jovenes",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0495": {
+    "DESCRIPTION": "Fondo para la Creacion y Apoyo de Microempresas, Artesanias y Actividades Agropecuarias del Edo de Tlaxcala",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0497": {
+    "DESCRIPTION": "Programa de Microempresarios en el Estado de Tlaxcala",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0518": {
+    "DESCRIPTION": "Inclusion Socioeconomica Equitativa de las Personas con Discapacidad",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0532": {
+    "DESCRIPTION": "Programa de Empleo Temporal",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0533": {
+    "DESCRIPTION": "Capacitación para y en el Trabajo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0556": {
+    "DESCRIPTION": "Impulso al Empleo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0573": {
+    "DESCRIPTION": "Apoyos para Construir Juntos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0585": {
+    "DESCRIPTION": "Vivienda 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0622": {
+    "DESCRIPTION": "Agricultura Urbana 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0630": {
+    "DESCRIPTION": "Unidades Moviles de Capacitacion (TECNO MOVILES) 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0631": {
+    "DESCRIPTION": "Impulso a la Agroindustria Rural 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0627": {
+    "DESCRIPTION": "Sistema Estatal de Asistencia Técnica 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0609": {
+    "DESCRIPTION": "Proyectos Integrales de Desarrollo Rural 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0598": {
+    "DESCRIPTION": "Financiamiento a Microempresas para Mujeres y Jóvenes",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0593": {
+    "DESCRIPTION": "Aprovechamiento de Agua Captada para uso Agrícola",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0623": {
+    "DESCRIPTION": "Programa de Apoyo e Impulso al Sector Agrícola (PAISA 2020)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0608": {
+    "DESCRIPTION": "Renovación y Mantenimiento a Maquinaria Agrícola",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0590": {
+    "DESCRIPTION": "Programa Estatal de Reforestación",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0589": {
+    "DESCRIPTION": "Repoblación y Aprovechamiento Sustentable del Maguey en el Estado de Tlaxcala",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0632": {
+    "DESCRIPTION": "Acciones de Mitigación del Cambio Climático",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0634": {
+    "DESCRIPTION": "Proyecto de Fortalecimiento a la Lechería Familiar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0626": {
+    "DESCRIPTION": "Proyecto Genética Estatal",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0600": {
+    "DESCRIPTION": "Fomento a la Actividad Acuícola FAAP 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0594": {
+    "DESCRIPTION": "Programa de Apoyo a la Competitividad Ovinos PACO",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0596": {
+    "DESCRIPTION": "Programa para la Adquisición de Semovientes Capitalizate",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0599": {
+    "DESCRIPTION": "Desayunos Escolares Modalidad Frío",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0606": {
+    "DESCRIPTION": "Desayunos Escolares Modalidad Caliente",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0607": {
+    "DESCRIPTION": "Atención a Menores de cinco años en Riesgo no Escolarizado",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0610": {
+    "DESCRIPTION": "Asistencia Alimentaria a Sujetos Vulnerables y Familias en Desamparo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0618": {
+    "DESCRIPTION": "Entrega de Paquetes Hidráulicos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0619": {
+    "DESCRIPTION": "Apoyos en Especie",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0620": {
+    "DESCRIPTION": "Trabajo Infantil",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0888": {
+    "DESCRIPTION": "Programa Estatal de Vivienda Social 2019",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0003": {
+    "DESCRIPTION": "Atencion a Personas con Discapacidad",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0201": {
+    "DESCRIPTION": "Desarrollo, Aplicación de Programas Educativos e Investigación en Materia Agroalimentaria - Padrón de Beneficiarios de Becas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "E003": {
+    "DESCRIPTION": "Instituto Nacional de las Personas Adultas Mayores (Servicios a grupos con necesidades especiales)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0519": {
+    "DESCRIPTION": "Articulación de Políticas Públicas Integrales de Juventud",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0219": {
+    "DESCRIPTION": "Atención a la Demanda de Educación para Adultos (INEA) - Alfabetizar a Personas de 15 años y más",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0220": {
+    "DESCRIPTION": "Atención a la Demanda de Educación para Adultos (INEA) - Certificar personas de 15 años y más a nivel primaria",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0221": {
+    "DESCRIPTION": "Atención a la Demanda de Educación para Adultos (INEA) - Certificar personas de 15 años y más en educación secundaria",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "G004": {
+    "DESCRIPTION": "Supervisión y verificación de concesiones en telecomunicaciones - Conectividad para el Bienestar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S021": {
+    "DESCRIPTION": "Programa Nacional de Financiamiento al Microempresario y a la Mujer Rural",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S038": {
+    "DESCRIPTION": "IMSS-BIENESTAR",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0017": {
+    "DESCRIPTION": "Apoyo al Empleo - Becate",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0018": {
+    "DESCRIPTION": "Apoyo al Empleo - Fomento al Autoempleo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0019": {
+    "DESCRIPTION": "Apoyo al Empleo - Movilidad Laboral",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0263": {
+    "DESCRIPTION": "Abasto Social de Leche a cargo de Liconsa, S.A. de C.V. - Terceros Beneficiarios",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S052": {
+    "DESCRIPTION": "Abasto Social de Leche a cargo de Liconsa, S.A. de C.V. - Lecherias",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S057": {
+    "DESCRIPTION": "Fondo Nacional para el Fomento de las Artesanias",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0092": {
+    "DESCRIPTION": "Apoyo a la Educacion Indigena - Becas de Educación Superior, Maestría y Apoyo a Titulación",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0086": {
+    "DESCRIPTION": "Apoyo a la Educacion Indigena - Casas y Comedores Comunitarios del Estudiante Indígena",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0085": {
+    "DESCRIPTION": "Apoyo a la Educacion Indigena - Casas y Comedores de la Niñez Indígena",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0806": {
+    "DESCRIPTION": "Apoyo a la Educacion Indigena - Casas y Comedores del Universitario Indígena",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0039": {
+    "DESCRIPTION": "Apoyo a la Educación Indígena (PAEI) - Coordinadores de Casas y Comedores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0040": {
+    "DESCRIPTION": "Apoyo a la Educación Indígena (PAEI) - Ecónomas de Casas y Comedores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0041": {
+    "DESCRIPTION": "Apoyo a la Educación Indígena (PAEI) - Promotoría de Supervisión",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0406": {
+    "DESCRIPTION": "Apoyo a la Educación Indígena - Promotoría Formativa",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S213": {
+    "DESCRIPTION": "Programa para Regularizar Asentamientos Humanos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0364": {
+    "DESCRIPTION": "Programa de Apoyo a la Infraestructura Hidroagrícola",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0172": {
+    "DESCRIPTION": "Apoyos para el Desarrollo Forestal Sustentable - Pago por Servicios Ambientales",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0103": {
+    "DESCRIPTION": "Derechos Indigenas - Apoyo a promotores culturales indígenas y afromexicanos para el rescate,preservación,difusión y fortalecimiento de sus culturas comunitarias",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0109": {
+    "DESCRIPTION": "Derechos Indigenas - Apoyo para el Acceso a la Atención Médica de Tercer Nivel",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0425": {
+    "DESCRIPTION": "Derechos Indigenas - Interpretes-Traductores en Lenguas Indigenas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0426": {
+    "DESCRIPTION": "Derechos Indigenas - Promotoras(es) y abogadas (os) comunitarias (os) de derechos indígenas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0100": {
+    "DESCRIPTION": "Programa para el Bienestar Integral de los Pueblos Indígenas (PROBIPI) - Apoyo para la liberación de personas privadas de su libertad por violación al derecho fundamental de efectivo acceso a la jurisdicción del Estado o porque su libertad implique la posibilidad de gozar otros derechos fundamentales",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0020": {
+    "DESCRIPTION": "Programa para el Bienestar Integral de los Pueblos Indígenas - Apoyo Técnico Comunitario",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0308": {
+    "DESCRIPTION": "Programa para el Bienestar Integral de los Pueblos Indígenas - Promotoría comunitaria de derechos de las mujeres indígenas y afromexicanas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0731": {
+    "DESCRIPTION": "Programa para el Mejoramiento de la Produccion y Productividad Indigena - Capacitación",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0286": {
+    "DESCRIPTION": "Programa para el Mejoramiento de la Produccion y Productividad Indigena - Promotoría Comunitaria",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0899": {
+    "DESCRIPTION": "Programa de Fomento a la Productividad Pesquera y Acuícola - Desarrollo de la Acuacultura",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0901": {
+    "DESCRIPTION": "Programa de Fomento a la Productividad Pesquera y Acuícola - Fomento al Consumo",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0898": {
+    "DESCRIPTION": "Programa de Fomento a la Productividad Pesquera y Acuícola - Impulso a la Capitalización",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0274": {
+    "DESCRIPTION": "Programa de Sanidad e Inocuidad Agroalimentaria - PF",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0059": {
+    "DESCRIPTION": "Programa de Aseguramiento Agropecuario - Subsidios",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0868": {
+    "DESCRIPTION": "Mejoramiento Urbano - Mejoramiento Integral de Barrios",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0301": {
+    "DESCRIPTION": "Programa de Mejoramiento Urbano - Obras Comunitarias",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0250": {
+    "DESCRIPTION": "La Escuela es Nuestra",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0370": {
+    "DESCRIPTION": "Sembrando Vida - Apoyo en Especie para la Producción Agroforestal",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S312": {
+    "DESCRIPTION": "Expansión de la Educación Inicial",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0142": {
+    "DESCRIPTION": "Programa de Apoyo Financiero a Microempresas Familiares - PF",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0889": {
+    "DESCRIPTION": "Derechos Indígenas - Promotores de sistematización de información e identidad jurídica",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0255": {
+    "DESCRIPTION": "Estímulos a la creación artística - Apoyo para la Formación y Profesionalización en el Extranjero",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0258": {
+    "DESCRIPTION": "Estímulos a la creación artística - Artes Verbales",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0254": {
+    "DESCRIPTION": "Estímulos a la creación artística - Creadores Escénicos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0297": {
+    "DESCRIPTION": "Estímulos a la creación artística - El Ensamble Escénico Vocal",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0260": {
+    "DESCRIPTION": "Estímulos a la creación artística - Fomento a Proyectos y Coinversiones Culturales",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0253": {
+    "DESCRIPTION": "Estímulos a la creación artística - Jóvenes Creadores",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0267": {
+    "DESCRIPTION": "Estímulos a la creación artística - México Encuentro de las Artes Escénicas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0265": {
+    "DESCRIPTION": "Estímulos a la creación artística - México en Escena-Grupos Artísticos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0257": {
+    "DESCRIPTION": "Estímulos a la creación artística - Músicos Tradicionales Mexicanos",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0296": {
+    "DESCRIPTION": "Estímulos a la creación artística - Orquesta Escuela Carlos Chávez",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0262": {
+    "DESCRIPTION": "Estímulos a la creación artística - Programa Apoyo a Proyectos para Niñez y juventud",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0269": {
+    "DESCRIPTION": "Estímulos a la creación artística - Programa de Apoyo a la Traducción",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0271": {
+    "DESCRIPTION": "Estímulos a la creación artística - Programa de Estímulos a la Creación y Desarrollo Artístico",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0256": {
+    "DESCRIPTION": "Estímulos a la creación artística - Residencias Artísticas",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0273": {
+    "DESCRIPTION": "Estímulos a la creación artística - Residencias Artísticas para Grupos Estables en el INBAL",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0252": {
+    "DESCRIPTION": "Estímulos a la creación artística - Sistema Nacional de Creadores de Arte",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "U316": {
+    "DESCRIPTION": "Pensión Mujeres Bienestar",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "S241": {
+    "DESCRIPTION": "Seguro de Vida para Jefas de Familia - Hijos en orfandad y/o titulares",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0567": {
+    "DESCRIPTION": "Seguro de Vida para Jefas de Familia - Seguro de vida para contribuir a disminuir la carencia de Seguridad Social (pre registros)",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  },
+  "0581": {
+    "DESCRIPTION": "Fomento a la Economia Social - Apoyos para la Implementación Proyectos Productivos Nuevos a cargo de la DGOP",
+    "FUENTE_DE_DATOS": "Padron Único de Beneficiarios",
+    "URL": "https://pub.bienestar.gob.mx/pub"
+  }
+}
