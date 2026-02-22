@@ -1,1050 +1,1050 @@
 {
   "S072": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S072.1": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S072.2": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S072.3": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S072.4": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S072.5": {
     "DESCRIPTION": "Becas para el Bienestar Benito Juárez Educación Básica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0837": {
     "DESCRIPTION": "Mejoramiento Urbano - PMU (INSUS) Regularización y Certeza Jurídica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0837.1": {
     "DESCRIPTION": "Mejoramiento Urbano - PMU (INSUS) Regularización y Certeza Jurídica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0837.2": {
     "DESCRIPTION": "Mejoramiento Urbano - PMU (INSUS) Regularización y Certeza Jurídica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0837.3": {
     "DESCRIPTION": "Mejoramiento Urbano - PMU (INSUS) Regularización y Certeza Jurídica",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0838": {
     "DESCRIPTION": "Mejoramiento Urbano - PMU (CONAVI) Vivienda en Ámbito Urbano",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0844": {
     "DESCRIPTION": "Producción para el Bienestar - Pequeños y Medianos Productores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0844.1": {
     "DESCRIPTION": "Producción para el Bienestar - Pequeños y Medianos Productores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0844.2": {
     "DESCRIPTION": "Producción para el Bienestar - Pequeños y Medianos Productores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0846": {
     "DESCRIPTION": "Producción para el Bienestar - Pequeños Productores (Ex PIMAF)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0848": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Indígenas",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0848.1": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Indígenas",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0848.2": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Indígenas",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0850": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Caña de Azúcar",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0850.1": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Caña de Azúcar",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0850.2": {
     "DESCRIPTION": "Producción para el Bienestar - Productores Caña de Azúcar",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0852": {
     "DESCRIPTION": "Producción para el Bienestar - Productores de Café",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0852.1": {
     "DESCRIPTION": "Producción para el Bienestar - Productores de Café",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0852.2": {
     "DESCRIPTION": "Producción para el Bienestar - Productores de Café",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0858": {
     "DESCRIPTION": "Programa Nacional de Reconstrucción - Reconstrucción (Vivienda)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0858.1": {
     "DESCRIPTION": "Programa Nacional de Reconstrucción - Reconstrucción (Vivienda)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0858.2": {
     "DESCRIPTION": "Programa Nacional de Reconstrucción - Reconstrucción (Vivienda)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0858.3": {
     "DESCRIPTION": "Programa Nacional de Reconstrucción - Reconstrucción (Vivienda)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0893": {
     "DESCRIPTION": "Jóvenes Construyendo el Futuro - Jóvenes Construyendo el Futuro (STPS)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0893.1": {
     "DESCRIPTION": "Jóvenes Construyendo el Futuro - Jóvenes Construyendo el Futuro (STPS)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0893.2": {
     "DESCRIPTION": "Jóvenes Construyendo el Futuro - Jóvenes Construyendo el Futuro (STPS)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0929": {
     "DESCRIPTION": "Programa para el Bienestar de las Personas en Emergencia Social o Natural",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S174": {
     "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S174.1": {
     "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S174.2": {
     "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S174.3": {
     "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S174.4": {
     "DESCRIPTION": "Apoyo para el Bienestar de las Niñas y Niños, Hijos de Madres Trabajadoras",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S176": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas Adultas Mayores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S176.1": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas Adultas Mayores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S176.2": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas Adultas Mayores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S176.3": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas Adultas Mayores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287.1": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287.2": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287.3": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287.4": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S287.5": {
     "DESCRIPTION": "Sembrando Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S286": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S286.1": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S286.2": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S286.3": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S286.4": {
     "DESCRIPTION": "Pensión para el Bienestar de las Personas con Discapacidad Permanente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S292": {
     "DESCRIPTION": "Fertilizantes",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S292.1": {
     "DESCRIPTION": "Fertilizantes",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0923": {
     "DESCRIPTION": "Programa de Fomento a la Agricultura, Ganadería, Pesca y Acuicultura - Apoyo para el Bienestar de Pescadores y Acuicultores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0923.1": {
     "DESCRIPTION": "Programa de Fomento a la Agricultura, Ganadería, Pesca y Acuicultura - Apoyo para el Bienestar de Pescadores y Acuicultores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0938": {
     "DESCRIPTION": "Programa Emergente de Vivienda",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0938.1": {
     "DESCRIPTION": "Programa Emergente de Vivienda",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0938.2": {
     "DESCRIPTION": "Programa Emergente de Vivienda",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0938.3": {
     "DESCRIPTION": "Programa Emergente de Vivienda",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0938.4": {
     "DESCRIPTION": "Programa Emergente de Vivienda",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0010": {
     "DESCRIPTION": "Microcréditos para el Bienestar - Modalidad Mes 13 JCF",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0010.1": {
     "DESCRIPTION": "Microcréditos para el Bienestar - Modalidad Mes 13 JCF",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283.1": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283.2": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283.3": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283.4": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S283.5": {
     "DESCRIPTION": "Jóvenes Escribiendo el Futuro",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S285": {
     "DESCRIPTION": "Microcréditos para el Bienestar - Modalidad Consolidación",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311.1": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311.2": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311.3": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311.4": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S311.5": {
     "DESCRIPTION": "Beca Universal para Estudiantes de Educación Media Superior Benito Juárez",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0688": {
     "DESCRIPTION": "Mejorando Tu Hogar",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0689": {
     "DESCRIPTION": "Nutriéndote Sano",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0538": {
     "DESCRIPTION": "Atención a Personas con Discapacidad",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0150": {
     "DESCRIPTION": "Programa Fomento al Empleo",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0317": {
     "DESCRIPTION": "Atención a Migrantes",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0494": {
     "DESCRIPTION": "Atención a Adultos Mayores",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0498": {
     "DESCRIPTION": "Atención a la Juventud",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0499": {
     "DESCRIPTION": "Atención a Pueblos Indígenas",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0500": {
     "DESCRIPTION": "Fomento Artesanal",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0318": {
     "DESCRIPTION": "Programa Entrega de Aparatos Ortopedico, Economicos y en Especie",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0339": {
     "DESCRIPTION": "Inclusión para madres jefas de familia en condiciones de vulnerabilidad",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0054": {
     "DESCRIPTION": "Crédito a la Palabra de la Mujer",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0129": {
     "DESCRIPTION": "Participación Comunitaria para el Desarrollo Humano con Asistencia Alimentaria",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0053": {
     "DESCRIPTION": "Vamos Juntos a la Escuela",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0685": {
     "DESCRIPTION": "Desayunos Escolares Fríos",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0686": {
     "DESCRIPTION": "Asistencia Alimentaria a Sujetos Vulnerables",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0524": {
     "DESCRIPTION": "Apoyos a Dignatarios Mayas",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0526": {
     "DESCRIPTION": "Estímulo a Entrenadores y Alto Rendimiento",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0645": {
     "DESCRIPTION": "Atención Para Verte Mejor",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0646": {
     "DESCRIPTION": "Atención Una Ayuda Una Esperanza",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0647": {
     "DESCRIPTION": "Atención Ayuda a Salvar Una Vida",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0648": {
     "DESCRIPTION": "Atención Aparatos Funcionales",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0650": {
     "DESCRIPTION": "Becas del CEDAR",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0652": {
     "DESCRIPTION": "Concurso de Arte Popular",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0657": {
     "DESCRIPTION": "Crédito a la Palabra Mujer MIPyME",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0776": {
     "DESCRIPTION": "Albergue Estudiantil",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0780": {
     "DESCRIPTION": "Educación Para Adultos",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0492": {
     "DESCRIPTION": "Por un Tlaxcala sin Rezago Educativo",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0493": {
     "DESCRIPTION": "Ayudas Sociales a Personas Jovenes",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0495": {
     "DESCRIPTION": "Fondo para la Creacion y Apoyo de Microempresas, Artesanias y Actividades Agropecuarias del Edo de Tlaxcala",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0497": {
     "DESCRIPTION": "Programa de Microempresarios en el Estado de Tlaxcala",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0518": {
     "DESCRIPTION": "Inclusion Socioeconomica Equitativa de las Personas con Discapacidad",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0532": {
     "DESCRIPTION": "Programa de Empleo Temporal",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0533": {
     "DESCRIPTION": "Capacitación para y en el Trabajo",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0556": {
     "DESCRIPTION": "Impulso al Empleo",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0573": {
     "DESCRIPTION": "Apoyos para Construir Juntos",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0585": {
     "DESCRIPTION": "Vivienda 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0622": {
     "DESCRIPTION": "Agricultura Urbana 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0630": {
     "DESCRIPTION": "Unidades Moviles de Capacitacion (TECNO MOVILES) 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0631": {
     "DESCRIPTION": "Impulso a la Agroindustria Rural 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0627": {
     "DESCRIPTION": "Sistema Estatal de Asistencia Técnica 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0609": {
     "DESCRIPTION": "Proyectos Integrales de Desarrollo Rural 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0598": {
     "DESCRIPTION": "Financiamiento a Microempresas para Mujeres y Jóvenes",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0593": {
     "DESCRIPTION": "Aprovechamiento de Agua Captada para uso Agrícola",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0623": {
     "DESCRIPTION": "Programa de Apoyo e Impulso al Sector Agrícola (PAISA 2020)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0608": {
     "DESCRIPTION": "Renovación y Mantenimiento a Maquinaria Agrícola",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0590": {
     "DESCRIPTION": "Programa Estatal de Reforestación",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0589": {
     "DESCRIPTION": "Repoblación y Aprovechamiento Sustentable del Maguey en el Estado de Tlaxcala",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0632": {
     "DESCRIPTION": "Acciones de Mitigación del Cambio Climático",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0634": {
     "DESCRIPTION": "Proyecto de Fortalecimiento a la Lechería Familiar",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0626": {
     "DESCRIPTION": "Proyecto Genética Estatal",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0600": {
     "DESCRIPTION": "Fomento a la Actividad Acuícola FAAP 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0594": {
     "DESCRIPTION": "Programa de Apoyo a la Competitividad Ovinos PACO",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0596": {
     "DESCRIPTION": "Programa para la Adquisición de Semovientes Capitalizate",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0599": {
     "DESCRIPTION": "Desayunos Escolares Modalidad Frío",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0606": {
     "DESCRIPTION": "Desayunos Escolares Modalidad Caliente",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0607": {
     "DESCRIPTION": "Atención a Menores de cinco años en Riesgo no Escolarizado",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0610": {
     "DESCRIPTION": "Asistencia Alimentaria a Sujetos Vulnerables y Familias en Desamparo",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0618": {
     "DESCRIPTION": "Entrega de Paquetes Hidráulicos",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0619": {
     "DESCRIPTION": "Apoyos en Especie",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0620": {
     "DESCRIPTION": "Trabajo Infantil",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0888": {
     "DESCRIPTION": "Programa Estatal de Vivienda Social 2019",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0003": {
     "DESCRIPTION": "Atencion a Personas con Discapacidad",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S241": {
     "DESCRIPTION": "Seguro de Vida para Jefas de Familia - Hijos en orfandad y/o titulares",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "S241.1": {
     "DESCRIPTION": "Seguro de Vida para Jefas de Familia - Hijos en orfandad y/o titulares",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0567": {
     "DESCRIPTION": "Seguro de Vida para Jefas de Familia - Seguro de vida para contribuir a disminuir la carencia de Seguridad Social (pre registros)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0581": {
     "DESCRIPTION": "Fomento a la Economia Social - Apoyos para la Implementación Proyectos Productivos Nuevos a cargo de la DGOP",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0581.1": {
     "DESCRIPTION": "Fomento a la Economia Social - Apoyos para la Implementación Proyectos Productivos Nuevos a cargo de la DGOP",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0519": {
     "DESCRIPTION": "Articulación de Políticas Públicas Integrales de Juventud",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0519.1": {
     "DESCRIPTION": "Articulación de Políticas Públicas Integrales de Juventud",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "0519.2": {
     "DESCRIPTION": "Articulación de Políticas Públicas Integrales de Juventud",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "E003": {
     "DESCRIPTION": "Instituto Nacional de las Personas Adultas Mayores (Servicios a grupos con necesidades especiales)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "E003.1": {
     "DESCRIPTION": "Instituto Nacional de las Personas Adultas Mayores (Servicios a grupos con necesidades especiales)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
   },
   "E003.2": {
     "DESCRIPTION": "Instituto Nacional de las Personas Adultas Mayores (Servicios a grupos con necesidades especiales)",
-    "FUENTE_DE_DATOS": "Padrón Unico de Beneficiarios",
+    "FUENTE_DE_DATOS": "Programas Sociales (Padrón Unico de Beneficiarios)",
     "URL": "https://pub.bienestar.gob.mx/pub",
     "MALLAS": "{municipios, personas}",
     "TIEMPO": "2019-2025"
@@ -8723,7 +8723,7 @@
   },
   "Pérdida de bosque": {
     "DESCRIPTION": "Area (metros cuadrados) deforestada en el año. Se calcula de un raster con resolución de 30m x 30m",
-    "FUENTE_DE_DATOS": "Global Forest Watch",
+    "FUENTE_DE_DATOS": "Deforestación (Global Forest Watch)",
     "URL": "https://www.globalforestwatch.org/",
     "MALLAS": "{municipios, ageb, 32km, 16km, 8km}",
     "TIEMPO": "2001-2025"
