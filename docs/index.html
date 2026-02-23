@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Visor de Variables por Fuente</title>
+<title>Visor de Variables Bioclimáticas por Fuente</title>
 
 <style>
 body {
@@ -13,8 +13,14 @@ body {
   margin: 0;
   padding: 20px;
 }
+
 .container { max-width: 900px; margin: auto; }
-h1, h2, h4 { color: #ffffff; border-bottom: 2px solid rgb(100,185,206); padding-bottom: 10px; }
+
+h1, h2, h4 {
+  color: #ffffff;
+  border-bottom: 2px solid rgb(100,185,206);
+  padding-bottom: 10px;
+}
 
 .card {
   background: #020f1c;
@@ -30,6 +36,7 @@ details {
   margin-top: 25px;
   background: #0a1e32;
 }
+
 details[open] { background: #0f2a46; }
 
 summary {
@@ -37,33 +44,70 @@ summary {
   padding: 15px;
   list-style: none;
 }
+
 summary::-webkit-details-marker { display: none; }
 
 .group-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
 }
-.group-header label {
-  font-size: 1.2em;
-  font-weight: bold;
+
+.group-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-meta {
+  margin-top: 4px;
+  display: flex;
+  gap: 6px;
+}
+
+.badge {
+  font-size: 1em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: #29465b;
+  color: #d9f1ff;
+  font-family: monospace;
+}
+
+.badge strong {
+  font-weight: 600;
   color: #ffffff;
 }
+
+.badge.malla { background: #355f7a; }
+.badge.tiempo { background: #6b7c8c; }
 
 .cards-container { padding: 0 15px 15px 15px; }
 
 .item { display: flex; align-items: center; gap: 15px; }
-.item input[type="checkbox"] { width: 1.3em; height: 1.3em; cursor: pointer; }
+
+.item input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  cursor: pointer;
+}
+
 .item label { flex-grow: 1; cursor: pointer; }
+
 .item-info strong {
   font-size: 1.1em;
   color: #73aae5;
   font-family: monospace;
 }
+
 .item-info p { margin: 5px 0 0; color: #6c757d; }
 
+details[open] .group-header h3 { color: #fbe297; }
+details[open] .cards-container .item-info p { color: #cfe8ff; }
+
+.hidden { display: none; }
+
 #download-btn {
-  color: rgb(255, 255, 255);
+  color: white;
   background-color: #587068;
   border: none;
   padding: 12px 20px;
@@ -72,20 +116,6 @@ summary::-webkit-details-marker { display: none; }
   font-size: 16px;
   font-weight: bold;
 }
-
-details .group-header h3 {
-  color: #79c7ff;
-  transition: 0.3s;
-}
-
-details[open] .group-header h3 {
-  color: #fbe297;
-}
-
-details[open] .cards-container .item-info p {
-  color: #cfe8ff;
-}
-
 </style>
 </head>
 
@@ -95,17 +125,17 @@ details[open] .cards-container .item-info p {
 <h1>Catálogo de Variables</h1>
 
 <div id="summary-section" class="hidden">
-<!--h2>Resumen</h2-->
-<div id="summary" class="card"></div>
+  <div id="summary" class="card"></div>
 </div>
 
-<!--div id="selection-section" class="hidden">
-<h4>Selecciona Variables para Exportar a CSV</h4>
-<div class="card">
-<button id="download-btn">Generar y Descargar CSV</button>
-</div-->
-<div id="variable-list"></div>
+<div id="selection-section" class="hidden">
+  <h4>Selecciona Variables para Exportar a CSV</h4>
+  <div class="card">
+    <button id="download-btn">Generar y Descargar CSV</button>
+  </div>
 </div>
+
+<div id="variable-list"></div>
 
 </div>
 
@@ -113,8 +143,6 @@ details[open] .cards-container .item-info p {
 
 document.addEventListener('DOMContentLoaded', preloadJSON);
 
-//----------------------------------------
-// Cargar diccionario automáticamente
 //----------------------------------------
 async function preloadJSON() {
 
@@ -131,11 +159,13 @@ async function preloadJSON() {
 
 //----------------------------------------
 function renderSummary(data) {
-  const variableCount = Object.keys(data).length;
-  const sources = new Set(Object.values(data).map(i => i.FUENTE_DE_DATOS));
+
+  const variableCount = data.length;
+  const sources = new Set(data.map(i => i.FUENTE_DE_DATOS));
+
   document.getElementById("summary").innerHTML = `
-    <p><strong>Variables encontradas:</strong> ${variableCount}</p>
-    <p><strong>Fuente de las variable:</strong> ${[...sources].join(', ')}</p>`;
+    <p><strong>Grupos de variables encontradas:</strong> ${variableCount}</p>
+    <p><strong>Fuentes:</strong> ${[...sources].join(', ')}</p>`;
 }
 
 //----------------------------------------
@@ -147,6 +177,13 @@ function slugify(text) {
 }
 
 //----------------------------------------
+function formatMallas(m) {
+  if (!m) return "";
+  if (Array.isArray(m)) return m.join(" · ");
+  return m;
+}
+
+//----------------------------------------
 function renderVariableList(data) {
 
   const listDiv = document.getElementById("variable-list");
@@ -154,24 +191,46 @@ function renderVariableList(data) {
 
   const grouped = {};
 
-  for (const key in data) {
-    const source = data[key].FUENTE_DE_DATOS || "Sin Fuente";
-    if (!grouped[source]) grouped[source] = [];
-    grouped[source].push({key, ...data[key]});
-  }
+  data.forEach(variable => {
+
+    const source = variable.FUENTE_DE_DATOS || "Sin Fuente";
+
+    if (!grouped[source]) {
+      grouped[source] = {
+        mallas: formatMallas(variable.MALLAS),
+        tiempo: variable.TIEMPO || "",
+        vars: []
+      };
+    }
+
+    grouped[source].vars.push(variable);
+  });
 
   for (const source in grouped) {
 
     const sourceId = slugify(source);
-
-    const details = document.createElement('details'); // COLAPSADO default
-
+    const details = document.createElement('details');
     const summary = document.createElement('summary');
+
     summary.innerHTML = `
       <div class="group-header">
-        <h3>${source}</h3>
-        <input type="checkbox" id="select-all-${sourceId}">
-        <label for="select-all-${sourceId}">Seleccionar Todo</label>
+        <div class="group-title">
+          <h3>${source}</h3>
+
+        <div class="group-meta">
+          <span class="badge malla">
+            <strong>Mallas disponibles:</strong> ${grouped[source].mallas}
+          </span>
+          <span class="badge tiempo">
+            <strong>Intervalo temporal:</strong> ${grouped[source].tiempo}
+          </span>
+        </div>
+
+        </div>
+        <div>
+          <input type="checkbox" id="select-all-${sourceId}">
+          <label for="select-all-${sourceId}">Seleccionar Todo</label>
+        </div>
       </div>`;
 
     details.appendChild(summary);
@@ -179,22 +238,21 @@ function renderVariableList(data) {
     const cardsContainer = document.createElement('div');
     cardsContainer.className = 'cards-container';
 
-    grouped[source].forEach(variable => {
+    grouped[source].vars.forEach(variable => {
 
       const card = document.createElement("div");
       card.className = "card";
-
-      const varId = `var-${sourceId}-${variable.key}`;
+      const varId = `var-${sourceId}-${variable.CODE}`;
 
       card.innerHTML = `
       <div class="item">
         <input type="checkbox"
           name="variable-select"
           class="variable-checkbox-${sourceId}"
-          value="${variable.key}"
+          value="${variable.CODE}"
           id="${varId}">
         <label for="${varId}" class="item-info">
-          <strong>${variable.key}</strong>
+          <strong>${variable.CODE}</strong>
           <p>${variable.DESCRIPTION}</p>
         </label>
       </div>`;
@@ -241,9 +299,12 @@ function setupDownloadListener(data) {
       ? `"${s.replace(/"/g,'""')}"` : s;
     };
 
-    selected.forEach(k => {
-      const v = data[k];
-      csv += [k,v.DESCRIPTION,v.FUENTE_DE_DATOS,v.URL]
+    selected.forEach(code => {
+
+      const v = data.find(d => d.CODE === code);
+      if (!v) return;
+
+      csv += [v.CODE,v.DESCRIPTION,v.FUENTE_DE_DATOS,v.URL]
       .map(esc).join(",") + "\n";
     });
 
